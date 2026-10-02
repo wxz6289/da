@@ -1,9 +1,3 @@
-[submodule "data_structures_and_algorithms_using_javascript"]
-	path = data_structures_and_algorithms_using_javascript
-	url = git@github.com:DreamerKing/data_structures_and_algorithms_using_javascript.git
 [submodule "ds-algrithms"]
 	path = ds-algrithms
 	url = git@github.com:DreamerKing/ds-algrithms.git
-[submodule "java-da"]
-	path = java-da
-	url = git@github.com:DreamerKing/datastructures-algrithms.git
