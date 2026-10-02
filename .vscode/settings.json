@@ -12,7 +12,7 @@
     "deno.lint": true,
     "editor.formatOnSave": true,
     "[typescript]": {
-        "editor.defaultFormatter": "denoland.vscode-deno"
+        "editor.defaultFormatter": "svipas.prettier-plus"
     },
     "editor.defaultFormatter": "denoland.vscode-deno",
     "deno.cacheOnSave": true,

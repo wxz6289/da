@@ -12,19 +12,14 @@ function merge(left: number[], right: number[]): number[] {
   let i = 0, j = 0;
   const result: number[] = [];
   while (i < l && j < r) {
-    if (left[i] < right[j]) {
-      result.push(left[i++]);
-    } else if (left[i] > right[j]) {
-      result.push(right[j++]);
-    } else {
-      result.push(left[i++]);
-      result.push(right[j++]);
-    }
+    left[i] < right[j] ? result.push(left[i++]) : result.push(right[j++]);
   }
+
   if (i < l) {
     result.push(...left.slice(i));
     i = l;
   }
+
   if (j < r) {
     result.push(...right.slice(j));
     j = r;

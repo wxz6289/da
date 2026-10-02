@@ -22,4 +22,5 @@ function bubleSort2(nums: number[]): number[] {
   return nums;
 }
 
+
 console.log(bubleSort2([21, 1, 34, 20, 3, 32, 0, 12]));
